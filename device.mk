@@ -18,10 +18,29 @@
 $(call inherit-product, device/realme/sm8250-common/common.mk)
 
 # Inherit proprietary libraries
-$(call inherit-product, vendor/realme/bitra/bitra-vendor.mk)
+$(call inherit-product, vendor/realme/RMX3371/RMX3371-vendor.mk)
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
+
+# A/B
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
+
+AB_OTA_POSTINSTALL_CONFIG += \
+    RUN_POSTINSTALL_system=true \
+    POSTINSTALL_PATH_system=system/bin/otapreopt_script \
+    FILESYSTEM_TYPE_system=ext4 \
+    POSTINSTALL_OPTIONAL_system=true
+
+AB_OTA_POSTINSTALL_CONFIG += \
+    RUN_POSTINSTALL_vendor=true \
+    POSTINSTALL_PATH_vendor=bin/checkpoint_gc \
+    FILESYSTEM_TYPE_vendor=ext4 \
+    POSTINSTALL_OPTIONAL_vendor=true
+
+PRODUCT_PACKAGES += \
+    checkpoint_gc \
+    otapreopt_script
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -46,4 +65,4 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    device/realme/bitra
+    device/realme/RMX3371

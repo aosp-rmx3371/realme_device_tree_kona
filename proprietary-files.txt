@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from realme GT Neo2 5G (RMX3370_11.F.04).
+## from realme GT Neo 3T (RMX3371_11.C.05).
 
 # ACDB
 odm/etc/acdbdata/Bluetooth_cal.acdb
@@ -77,22 +77,21 @@ odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846.bin
 odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471_2169A.bin
 
 # Charger
-odm/firmware/fastchg/136730/charging_thermal_config_default.txt
-odm/firmware/fastchg/136730/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/136858/charging_thermal_config_default.txt
-odm/firmware/fastchg/136858/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/136859/charging_thermal_config_default.txt
-odm/firmware/fastchg/136859/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin
+odm/firmware/fastchg/19705/oplus_vooc_fw.bin
+odm/firmware/fastchg/19795/oplus_vooc_fw.bin
+odm/firmware/fastchg/20607/oplus_vooc_fw.bin
+odm/firmware/fastchg/21615/charging_thermal_config_default.txt
+odm/firmware/fastchg/21615/oplus_vooc_fw_rk826.bin
 odm/firmware/fastchg/21619/charging_thermal_config_default.txt
 odm/firmware/fastchg/21619/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/2161A/charging_thermal_config_default.txt
-odm/firmware/fastchg/2161A/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/2169A/charging_thermal_config_default.txt
-odm/firmware/fastchg/2169A/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/2169B/charging_thermal_config_default.txt
-odm/firmware/fastchg/2169B/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/21623/charging_thermal_config_default.txt
+odm/firmware/fastchg/21623/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/21732/charging_thermal_config_default.txt
+odm/firmware/fastchg/21732/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/21733/charging_thermal_config_default.txt
+odm/firmware/fastchg/21733/oplus_vooc_fw_rk826.bin
 odm/firmware/fastchg/charging_thermal_config_default.txt
+odm/firmware/fastchg/smart_chg_config_table.txt
 
 # Display calibration data
 vendor/etc/ltm_config_samsung_ams662zs01_dsc_cmd_mode_panel.xml
@@ -171,8 +170,8 @@ vendor/lib64/libqtikeymaster4.so
 vendor/lib/hw/sound_trigger.primary.kona.so
 
 # NFC
-odm/etc/nfc/libnfc-mtp-SN100.conf_2169B:vendor/etc/libnfc-nxp.conf
-odm/etc/nfc/libnfc-nci.conf_2169B:vendor/etc/libnfc-nci.conf
+odm/etc/nfc/libnfc-mtp-SN100.conf_19805:vendor/etc/libnfc-nxp.conf
+odm/etc/nfc/libnfc-nci.conf_19805:vendor/etc/libnfc-nci.conf
 odm/lib/libsn100u_fw.so:vendor/lib/libsn100u_fw.so
 
 # Sensors

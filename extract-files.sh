@@ -30,7 +30,7 @@ fi
 
 set -e
 
-export DEVICE=bitra
+export DEVICE=RMX3371
 export DEVICE_COMMON=sm8250-common
 export VENDOR=realme
 
