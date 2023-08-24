@@ -11,9 +11,9 @@ odm/etc/acdbdata/Headset_cal.acdb
 odm/etc/acdbdata/Speaker_cal.acdb
 
 # ADSP Modules
-odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_21619.so
-odm/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel_21619.so
-odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21619.so
+odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_21623.so
+odm/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel_21623.so
+odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21623.so
 
 # Audio libraries
 odm/lib/liblvimfs.so
@@ -59,22 +59,28 @@ odm/etc/camera/config/imx471
 odm/etc/camera/config/oplus_camera_aps_config
 odm/etc/camera/config/oplus_camera_config
 odm/etc/camera/config/ov02b
-odm/etc/camera/config/s5kgw1
+odm/etc/camera/config/ov64b
 odm/etc/camera/CameraHWConfiguration.config
 odm/etc/camera/camera_engmode.xml
 odm/etc/camera/settings_fdc.txt
 odm/lib64/camera/com.qti.sensor.hi846.so
 odm/lib64/camera/com.qti.sensor.imx471.so
 odm/lib64/camera/com.qti.sensor.ov02b.so
-odm/lib64/camera/com.qti.sensor.s5kgw1.so
-odm/lib64/camera/com.qti.sensormodule.qtech_s5kgw1.bin
+odm/lib64/camera/com.qti.sensor.ov64b.so
+odm/lib64/camera/com.qti.sensormodule.qtech_ov64b.bin
 odm/lib64/camera/com.qti.sensormodule.shine_ov02b.bin
 odm/lib64/camera/com.qti.sensormodule.truly_hi846.bin
-odm/lib64/camera/com.qti.sensormodule.truly_imx471_2169A.bin
-odm/lib64/camera/com.qti.tuned.sm8250_qtech_s5kgw1.bin
+odm/lib64/camera/com.qti.sensormodule.truly_imx471_21732.bin:odm/lib64/camera/com.qti.sensormodule.truly_imx471.bin
+odm/lib64/camera/com.qti.tuned.sm8250_qtech_ov64b.bin
 odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02b.bin
 odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846.bin
-odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471_2169A.bin
+odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471_21732.bin:odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471.bin
+
+#camera others
+odm/etc/vintf/manifest/manifest_oplus_cameraextension.xml
+odm/lib/libaiboost_sr.so
+odm/lib/libosie_process.so
+vendor/lib64/libqdMetaData.so
 
 # Charger
 odm/firmware/fastchg/19705/oplus_vooc_fw.bin
@@ -185,9 +191,9 @@ odm/etc/sensor/config/kona_qrd_sx933x_0.json
 odm/etc/sensor/sensor_config.json
 
 # Touchscreen firmware
-odm/firmware/tp/21619/FW_S3908_SAMSUNG.img
-odm/firmware/tp/21619/FW_S3908_SAMSUNG_FAE.img
-odm/firmware/tp/21619/LIMIT_S3908_SAMSUNG.img
+odm/firmware/tp/21623/FW_FT3658U_SAMSUNG.img
+odm/firmware/tp/21623/FW_FT3658U_SAMSUNG_FAE.img
+odm/firmware/tp/21623/LIMIT_FT3658U_SAMSUNG.img
 
 # Wifi
 odm/etc/wifi/bdwlan.elf
