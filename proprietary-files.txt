@@ -140,6 +140,12 @@ vendor/firmware/image/opluseid.b05
 vendor/firmware/image/opluseid.b06
 vendor/firmware/image/opluseid.b07
 vendor/firmware/image/opluseid.mdt
+odm/lib64/hw/fingerprint.goodix_G2.default.so
+odm/lib64/hw/fingerprint.goodix_G6.default.so
+odm/lib64/hw/fingerprint.goodix_G7.default.so
+odm/lib64/libgf_hal_G2.so
+odm/lib64/libgf_hal_G6.so
+odm/lib64/libgf_hal_G7.so
 
 # Graphics (Adreno firmware)
 vendor/firmware/a650_gmu.bin
