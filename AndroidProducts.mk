@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_RMX3371.mk
+    $(LOCAL_DIR)/arrow_RMX3371.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_RMX3371-user \
-    evolution_RMX3371-userdebug \
-    evolution_RMX3371-eng
+    arrow_RMX3371-user \
+    arrow_RMX3371-userdebug \
+    arrow_RMX3371-eng
