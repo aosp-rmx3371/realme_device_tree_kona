@@ -18,8 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common arrow stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common spark stuff.
+$(call inherit-product, vendor/spark/config/common.mk)
 
 # Enable extra UDFPS animations
 EXTRA_UDFPS_ANIMATIONS := true
@@ -40,7 +40,7 @@ EXTRA_UDFPS_ANIMATIONS := true
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_RMX3371
+PRODUCT_NAME := spark_RMX3371
 PRODUCT_DEVICE := RMX3371
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX3371

@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_RMX3371.mk
+    $(LOCAL_DIR)/spark_RMX3371.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_RMX3371-user \
-    arrow_RMX3371-userdebug \
-    arrow_RMX3371-eng
+    spark_RMX3371-user \
+    spark_RMX3371-userdebug \
+    spark_RMX3371-eng
